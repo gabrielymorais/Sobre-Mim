@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inter:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+}
+body{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}
+/* ESTILIZANDO MENU */
+#menu-navegacao{
+    display: flex;
+    justify-content: center;
+}
+#menu-navegacao a{
+    text-decoration: none;
+    color:rgba(57, 57, 57, 0.9) ;
+    font-size: 20pt;
+    padding: 2rem;
+}
+#menu-navegacao a:hover{
+    color:rgba(78, 12, 63, 0.74)  ;
+    transform: scale(1.1);
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+
+/* ESTILIZANDO SESSAO SOBRE-MIM */
+
+#sobre-mim{
+    margin-top: 10rem; 
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    text-align: center;
+    
+    background-color:rgba(78, 12, 63, 0.74) ;
+    padding: 6rem;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 150px 20px ;
+    max-width: 1000px;
+}
+#sobre-mim h1{
+    font-size: 24pt;
+}
+#sobre-mim p{
+    font-size: 18pt;
+}
+
+/* ESTILIZANDO SESSOES DE FORMACAO E PROJETOS (ESTILOS SE APLICAM AS DUAS SESSOES) */
+
+
+#formacao{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.info{
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.info h1{
+    color: rgba(78, 12, 63, 0.74);
+    font-size: 20pt;
+}
+
+.info p{
+    color: rgba(83, 83, 83, 1);
+    font-size: 16pt;
+}
+
+#projetos{
+    margin-top: 6rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.vetores{
+    width: 400px;;
+}
+
+/* ESTILIZANDO SESSAO DE CONTATOS */
+
+#contatos{
+    margin-top: 10rem; 
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+    align-self: center;    
+    background-color:rgba(78, 12, 63, 0.74) ;
+    padding: 6rem;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+.contate-me{
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.contate-me h1{
+    font-size: 20pt;
+}
+
+.contate-me p{
+    font-size: 12pt;
+}
+.alinhamento-contatos{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
